@@ -1,4 +1,4 @@
-package esercizimethodfactory;
+package esercizidesignpattern.factotymethod;
 
 public class ConsegnaStandardCreator extends ConsegnaCreator {
     @Override
