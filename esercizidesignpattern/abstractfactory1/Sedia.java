@@ -1,4 +1,4 @@
-package esercizidesignpattern.abstractfactory;
+package esercizidesignpattern.abstractfactory1;
 
 public class Sedia implements Mobili{
     @Override

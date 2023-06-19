@@ -1,4 +1,4 @@
-package esercizidesignpattern.factotymethod;
+package esercizidesignpattern.methodfactory1;
 
 /*Esercizio su Factory Method:
 Supponi di dover sviluppare un'applicazione di logistica che gestisce la consegna di pacchi.

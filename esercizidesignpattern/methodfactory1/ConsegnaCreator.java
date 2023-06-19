@@ -1,4 +1,4 @@
-package esercizidesignpattern.factotymethod;
+package esercizidesignpattern.methodfactory1;
 
 public abstract class ConsegnaCreator {
     public abstract Consegna creaConsegna();
