@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // alert(true || true);   // true
+        // alert(false || true);  // true
+        // alert(true || false);  // true
+        // alert(false || false); // false
+
+        // let ora = 9;
+        // let isWeekend = true
+        // if(ora < 10 || ora > 18 || isWeekend)
+        //     alert("l'ufficio è chiuso");
+
+        // let firstName = "";
+        // let lastName = "";
+        // let nickName = "SuperCoder";
+
+    let userName = prompt("Who's there?", '');
+
+    if (userName === 'Admin') {
+
+        let pass = prompt('Password?', '');
+
+        if (pass === 'TheMaster') {
+            alert('Welcome!');
+        } else if (pass === '' || pass === null) {
+            alert('Canceled');
+        } else {
+            alert('Wrong password');
+        }
+
+    } else if (userName === '' || userName === null) {re
+        alert('Canceled');
+    } else {
+        alert("I don't know you");
+    }
+
+
+
+            alert(firstName || lastName || nickName || "Anonymous"); // SuperCoder
+    </script>
+</body>
+</html>
